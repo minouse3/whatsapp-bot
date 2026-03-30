@@ -1,0 +1,12 @@
+# Assets
+assets/assignment.json
+assets/superadmin.json
+assets/whitelist.json
+assets/komting.json
+
+# Node modules
+node_modules/
+
+# WhatsApp session files
+.webwebjs_auth/
+.webwebjs_cache/

@@ -1,0 +1,4 @@
+{
+  "watch": ["./"],
+  "ignore": ["assets/*", "node_modules/*"]
+}
