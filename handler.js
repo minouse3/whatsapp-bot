@@ -21,7 +21,8 @@ module.exports = async (client, msg) => {
 
     if (!body.startsWith(prefix)) return;
 
-    const args = body.slice(prefix.length).trim().split(/ +/);
+    // Split biar bisa nerima kalo misalkan ada enter
+    const args = body.slice(prefix.length).trim().split(/\s+/);
     const commandName = args.shift().toLowerCase();
 
     const command = commands.get(commandName);
