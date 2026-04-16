@@ -3,8 +3,8 @@ const path = require("path");
 const dayjs = require("dayjs");
 
 module.exports = {
-    name: "listtugas",
-    description: "Menampilkan semua tugas yang sudah ditambahkan",
+    name: "tugas",
+    description: "Menampilkan Daftar Tugas",
 
     async execute(client, msg) {
         const filePath = path.join(__dirname, "../assets/assignment.json");
